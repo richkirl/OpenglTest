@@ -32,6 +32,6 @@ void Openglconsole::paintGL()
   glBegin(GL_LINE_LOOP);
   //glVertex2i(0,0);
   glEnd();
-  renderText(2.0,18.0,"Hello OpenGL Nice Text Rendering",QFont("arial",10,12,false));
+  renderText(2.0,18.0,"OpenGL Text Rendering",QFont("arial",10,12,false));
   glPixelStorei(GL_UNPACK_ALIGNMENT, 100);
 }
